@@ -9,7 +9,7 @@
 const LINKS = {
     googleForm: "https://forms.google.com/",
 
-    agreement: "",
+    agreement: "documents/agreement.pdf",
     manual: "",
     collection: "",
     earn: ""
