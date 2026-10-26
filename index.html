@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F8FAFD">
+
+    <title>BOB Storage Services | Coming Soon</title>
+    <meta name="description" content="BOB Storage Services is coming soon. Private student storage for University of Limpopo students.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header" id="header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="brand" aria-label="BOB Storage Services Home">
+                <img src="images/bob-logo.png" alt="BOB Services Logo" class="brand-logo">
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About BOB</a>
+                <a href="#about" class="nav-link">Resources</a>
+                <a href="https://forms.google.com/"
+                   class="nav-cta form-link"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Fill the Form
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+
+                <!-- LEFT: TEXT -->
+                <div class="hero-content">
+
+                    <div class="coming-soon">
+                        <span class="status-dot"></span>
+                        COMING SOON
+                    </div>
+
+                    <h1 class="hero-title">
+                        HEY<br>
+                        <span class="hero-highlight">GHETTO!</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Welcome to <span>BOB's Storage Services.</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        We're getting ready to open
+                        our private student storage services.
+                        While you wait, fill in our form and get
+                        familiar with everything BOB has to offer.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="https://forms.google.com/"
+                           class="btn btn-primary form-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Fill in the Form
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="#about" class="btn btn-text">
+                            Get to know BOB
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+
+                
+
+                </div>
+
+                <!-- RIGHT: OVERLAPPING CIRCULAR IMAGES -->
+                <div class="hero-visual" aria-label="Student storage photography">
+
+                    <div class="circle-decoration"></div>
+
+                    <div class="photo-circle photo-circle-large">
+                        <img
+                            src="images/student-packing.jpg"
+                            alt="University student packing belongings"
+                            fetchpriority="high">
+                    </div>
+
+                    <div class="photo-circle photo-circle-small">
+                        <img
+                            src="images/storage-boxes.jpg"
+                            alt="Packed boxes and student belongings">
+                    </div>
+
+                    <span class="visual-sparkle sparkle-one" aria-hidden="true">✳</span>
+                    <span class="visual-sparkle sparkle-two" aria-hidden="true">✦</span>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to learn more">
+                <span>SCROLL TO EXPLORE</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <!-- ABOUT / RESOURCES -->
+        <section class="about-section" id="about">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-eyebrow">THE BOB EXPERIENCE</span>
+
+                    <h2>
+                        Get to know <span>BOB.</span>
+                    </h2>
+
+                    <p>
+                        New here? No worries. Familiarise yourself
+                        with our storage services and everything
+                        you need to know before we open.
+                    </p>
+                </div>
+
+                <div class="resources-grid">
+
+                    <!-- AGREEMENT FORM -->
+                    <a href="#"
+                       class="resource-card reveal resource-link"
+                       data-resource="agreement"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <div class="resource-icon icon-blue">
+                            <i class="fa-regular fa-file-lines"></i>
+                        </div>
+
+                        <div class="resource-content">
+                            <span class="resource-number">01 / DOCUMENTS</span>
+                            <h3>Agreement Form</h3>
+                            <p>
+                                Familiarise yourself with the
+                                BOB storage agreement (B-2121).
+                            </p>
+                        </div>
+
+                        <span class="resource-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+                    </a>
+
+                    <!-- STORAGE MANUAL -->
+                    <a href="#"
+                       class="resource-card reveal resource-link"
+                       data-resource="manual"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <div class="resource-icon icon-navy">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+
+                        <div class="resource-content">
+                            <span class="resource-number">02 / GUIDE</span>
+                            <h3>Storage Manual</h3>
+                            <p>
+                                Everything you need to know about
+                                BOB's private storage services.
+                            </p>
+                        </div>
+
+                        <span class="resource-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+                    </a>
+
+                    <!-- PACKAGE COLLECTION -->
+                    <a href="#"
+                       class="resource-card reveal resource-link"
+                       data-resource="collection"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <div class="resource-icon icon-sky">
+                            <i class="fa-solid fa-box-open"></i>
+                        </div>
+
+                        <div class="resource-content">
+                            <span class="resource-number">03 / COLLECTION</span>
+                            <h3>Package Collection</h3>
+                            <p>
+                                Waiting for package collection?
+                                Find the information you need here.
+                            </p>
+                        </div>
+
+                        <span class="resource-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+                    </a>
+
+                    <!-- MAKE MONEY WITH US -->
+                    <a href="#"
+                       class="resource-card reveal resource-link"
+                       data-resource="earn"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <div class="resource-icon icon-light">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+
+                        <div class="resource-content">
+                            <span class="resource-number">04 / OPPORTUNITIES</span>
+                            <h3>Make Money With Us</h3>
+                            <p>
+                                Interested in working with BOB?
+                                Explore opportunities to get involved.
+                            </p>
+                        </div>
+
+                        <span class="resource-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BOTTOM CTA -->
+        <section class="bottom-cta">
+            <div class="container">
+
+                <div class="cta-content reveal">
+                    <span class="section-eyebrow">WE'RE ALMOST READY</span>
+
+                    <h2>
+                        Don't miss out.<br>
+                        <span>Get ready with BOB.</span>
+                    </h2>
+
+                    <p>
+                        Our storage services are coming soon.
+                        Fill in the form while you wait.
+                    </p>
+
+                    <a href="https://forms.google.com/"
+                       class="btn btn-white form-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Fill in the Form
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <div class="cta-decor decor-one"></div>
+                <div class="cta-decor decor-two"></div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+
+            <div class="footer-brand">
+                <img src="images/bob-logo.png" alt="BOB Services Logo">
+                <span>Private student storage, made simple.</span>
+            </div>
+
+            <p>
+                &copy; <span id="currentYear"></span>
+                BOB Services. All rights reserved.
+            </p>
+
+            <a href="#home" class="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </div>
+    </footer>
+
+</body>
+</html>

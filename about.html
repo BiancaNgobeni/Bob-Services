@@ -1,0 +1,476 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | BOB Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header" id="header">
+        <nav class="navbar container">
+
+            <a href="index.html" class="brand">
+                <img src="images/bob-logo.png" alt="BOB Services Logo" class="brand-logo">
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active" aria-current="page">About Us</a>
+                <a href="#more-services" class="nav-link">More Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="https://forms.google.com/"
+                   class="nav-cta form-link"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Fill the Form
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ABOUT HERO -->
+        <section class="about-hero">
+            <div class="container about-hero-grid">
+
+                <div class="about-hero-content">
+
+                    <span class="section-eyebrow">ABOUT BOB SERVICES</span>
+
+                    <h1>
+                        More Than<br>
+                        <span>Storage.</span>
+                    </h1>
+
+                    <h2>Bringing Out the Best.</h2>
+
+                    <p>
+                        BOB Services is a student-focused business founded
+                        in 2025, dedicated to making student life easier
+                        through reliable storage, educational support
+                        and more.
+                    </p>
+
+                    <a href="#our-story" class="about-explore">
+                        Discover our story
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+
+                </div>
+
+                <!-- OVERLAPPING CIRCULAR PHOTOGRAPHS -->
+                <div class="about-hero-visual">
+
+                    <div class="about-blue-circle"></div>
+
+                    <div class="about-photo-large">
+                        <img src="images/about-team.jpg"
+                             alt="BOB Services team with student storage boxes">
+                    </div>
+
+                    <div class="about-photo-small">
+                        <img src="images/about-storage.jpg"
+                             alt="Packed student belongings">
+                    </div>
+
+                    <span class="about-sparkle" aria-hidden="true">✳</span>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- OUR STORY -->
+        <section class="our-story-section" id="our-story">
+            <div class="container story-grid">
+
+                <div class="story-content reveal">
+
+                    <span class="section-eyebrow">OUR STORY</span>
+
+                    <h2>
+                        Built by Students.<br>
+                        <span>For Students.</span>
+                    </h2>
+
+                    <p>
+                        BOB Services, short for Bringing Out the Best,
+                        was founded in 2025 with a simple goal:
+                        to provide University of Limpopo students
+                        with a safe, reliable and convenient
+                        storage solution.
+                    </p>
+
+                    <p>
+                        In our first year, we collected and stored
+                        over 500 items, successfully returning
+                        every one of them safe and sound.
+                        We also offer pickup and delivery,
+                        making the storage process more
+                        convenient for students.
+                    </p>
+
+                    <p>
+                        What started as a small idea has grown
+                        into a service students can rely on,
+                        and we're excited to keep building
+                        on that foundation.
+                    </p>
+
+                </div>
+
+                <div class="story-stats reveal">
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                        </div>
+
+                        <div>
+                            <strong>500+</strong>
+                            <span>Items stored in 2025</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon stat-icon-green">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>Items safely returned</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+
+                        <div>
+                            <strong>2025</strong>
+                            <span>The year BOB began</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PHOTO GALLERY -->
+        <section class="about-gallery-section">
+            <div class="container">
+
+                <div class="gallery-heading reveal">
+                    <span class="section-eyebrow">A GLIMPSE OF OUR FIRST YEAR</span>
+                    <h2>Moments from 2025.</h2>
+                    <p>
+                        A look back at our first storage season.
+                    </p>
+                </div>
+
+                <div class="about-gallery">
+
+                    <figure class="gallery-photo reveal">
+                        <img src="images/bob-2025-1.jpg"
+                             alt="BOB Services collecting student belongings"
+                             loading="lazy">
+                        <figcaption>Collection day</figcaption>
+                    </figure>
+
+                    <figure class="gallery-photo reveal">
+                        <img src="images/bob-2025-2.jpg"
+                             alt="Boxes and belongings prepared for storage"
+                             loading="lazy">
+                        <figcaption>Getting everything ready</figcaption>
+                    </figure>
+
+                    <figure class="gallery-photo reveal">
+                        <img src="images/bob-2025-3.jpg"
+                             alt="BOB team handling storage boxes"
+                             loading="lazy">
+                        <figcaption>Behind the scenes</figcaption>
+                    </figure>
+
+                    <figure class="gallery-photo reveal">
+                        <img src="images/bob-2025-4.jpg"
+                             alt="Student belongings safely stored"
+                             loading="lazy">
+                        <figcaption>Safe and sound</figcaption>
+                    </figure>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- QUALITY SEALS -->
+        <section class="quality-section">
+            <div class="container">
+
+                <div class="quality-heading reveal">
+                    <span class="section-eyebrow">WHY CHOOSE BOB?</span>
+                    <h2>Reliable. Convenient. Student-Focused.</h2>
+                </div>
+
+                <div class="quality-seals">
+
+                    <!-- RELIABLE STORAGE -->
+                    <div class="quality-seal reveal">
+                        <div class="seal-inner">
+                            <div class="seal-stars">★ ★ ★</div>
+
+                            <i class="fa-solid fa-shield-halved"></i>
+
+                            <strong>RELIABLE</strong>
+                            <span>STORAGE</span>
+
+                            <div class="seal-bottom">★ BOB ★</div>
+                        </div>
+                    </div>
+
+                    <!-- PICKUP AND DELIVERY -->
+                    <div class="quality-seal reveal">
+                        <div class="seal-inner">
+                            <div class="seal-stars">★ ★ ★</div>
+
+                            <i class="fa-solid fa-truck-fast"></i>
+
+                            <strong>PICKUP &</strong>
+                            <span>DELIVERY</span>
+
+                            <div class="seal-bottom">★ BOB ★</div>
+                        </div>
+                    </div>
+
+                    <!-- SAFE RETURNS -->
+                    <div class="quality-seal reveal">
+                        <div class="seal-inner">
+                            <div class="seal-stars">★ ★ ★</div>
+
+                            <i class="fa-solid fa-box-open"></i>
+
+                            <strong>SAFE</strong>
+                            <span>RETURNS</span>
+
+                            <div class="seal-bottom">★ BOB ★</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- MORE SERVICES -->
+        <section class="more-services-section" id="more-services">
+            <div class="container">
+
+                <div class="services-heading reveal">
+                    <span class="section-eyebrow">MORE FROM BOB SERVICES</span>
+
+                    <h2>
+                        Supporting Students<br>
+                        <span>Beyond Storage.</span>
+                    </h2>
+
+                    <p>
+                        Bringing Out the Best means doing more
+                        to support students and learners
+                        in their everyday lives.
+                    </p>
+                </div>
+
+                <div class="about-services-grid">
+
+                    <!-- TUTORING -->
+                    <article class="about-service-card reveal">
+
+                        <div class="service-card-top">
+                            <div class="about-service-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+
+                            <div>
+                                <h3>Tutoring Services</h3>
+                                <p>Academic support for learners</p>
+                            </div>
+                        </div>
+
+                        <div class="service-divider"></div>
+
+                        <h4>Grades 10–12</h4>
+
+                        <ul class="service-list">
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                Mathematics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                Physical Sciences
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                English
+                            </li>
+                        </ul>
+
+                        <h4>Primary School</h4>
+
+                        <ul class="service-list">
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                Homework assistance
+                            </li>
+                        </ul>
+
+                        <a href="#"
+                           class="service-whatsapp-btn whatsapp-link"
+                           data-message="Hi BOB Services, I would like to enquire about tutoring services."
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Enquire on WhatsApp
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </article>
+
+                    <!-- FINANCIAL ASSISTANCE -->
+                    <article class="about-service-card reveal">
+
+                        <div class="service-card-top">
+                            <div class="about-service-icon">
+                                <i class="fa-solid fa-wallet"></i>
+                            </div>
+
+                            <div>
+                                <span class="service-coming-soon">COMING SOON</span>
+                                <h3>Financial Assistance</h3>
+                                <p>Loan services</p>
+                            </div>
+                        </div>
+
+                        <div class="service-divider"></div>
+
+                        <p class="financial-description">
+                            We're working on introducing financial
+                            assistance services to support students
+                            who may need additional financial help.
+                        </p>
+
+                        <p class="financial-description">
+                            More details about eligibility,
+                            applications and availability
+                            will be shared when the service launches.
+                        </p>
+
+                        <div class="coming-soon-button">
+                            <i class="fa-regular fa-clock"></i>
+                            Coming Soon
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="about-contact-section" id="contact">
+            <div class="container">
+
+                <div class="about-contact-card reveal">
+
+                    <div class="contact-decor contact-decor-one"></div>
+                    <div class="contact-decor contact-decor-two"></div>
+
+                    <div class="contact-illustration">
+                        <div class="contact-circle">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                    </div>
+
+                    <div class="contact-content">
+
+                        <span class="contact-eyebrow">GET IN TOUCH</span>
+
+                        <h2>Got questions? Let's talk.</h2>
+
+                        <p>
+                            Whether it's about storage, pickup and
+                            delivery, or tutoring, BOB Services
+                            is just a message away.
+                        </p>
+
+                        <a href="#"
+                           class="contact-whatsapp-btn whatsapp-link"
+                           data-message="Hi BOB Services, I would like to make an enquiry."
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Chat on WhatsApp
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+
+            <div class="footer-brand">
+                <img src="images/bob-logo.png" alt="BOB Services Logo">
+                <span>Bringing Out the Best.</span>
+            </div>
+
+            <p>
+                &copy; <span id="currentYear"></span>
+                BOB Services. All rights reserved.
+            </p>
+
+            <a href="index.html" class="back-to-top" aria-label="Back to homepage">
+                <i class="fa-solid fa-house"></i>
+            </a>
+
+        </div>
+    </footer>
+
+</body>
+</html>
